@@ -3,7 +3,8 @@ int main()
 {
     std::cout << "Enter two numbers:";
     std::cout << std::endl;
-    int v1, v2;
+    int v1;
+    int v2;
     std::cin >> v1;
     std::cin >> v2;
     std::cout << "The sum of ";
