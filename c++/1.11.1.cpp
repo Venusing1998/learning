@@ -2,13 +2,12 @@
 
 int main()
 {
-    int sum = 0;
     int i = 10;
     while (i > -1)
     {
-        sum += i;
+        std::cout << i << "\n";
         --i;
     }
-    std::cout << "Sum of 10 to 0 inclusive is " << sum << std::endl;
+    std::cout << std::endl;
     return 0;
 }
