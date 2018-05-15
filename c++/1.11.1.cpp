@@ -1,13 +1,14 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
     int i = 10;
     while (i > -1)
     {
-        std::cout << i << "\n";
+        cout << i << "\n";
         --i;
     }
-    std::cout << std::endl;
+    cout << endl;
     return 0;
 }

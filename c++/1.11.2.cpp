@@ -1,11 +1,12 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
     for(int i = 10; i > -1; --i)
     {
-        std::cout << i << "\n";
+        cout << i << "\n";
     }
-    std::cout << std::endl;
+    cout << endl;
     return 0;    
 }

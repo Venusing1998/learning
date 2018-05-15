@@ -1,17 +1,18 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Enter two numbers: " << std::endl;
+    cout << "Enter two numbers: " << endl;
     int v1, v2;
-    std::cin >> v1 >> v2;
+    cin >> v1 >> v2;
     if (v1 >= v2)
     {
-        std::cout << "The upper number of two numbers is " << v1 << std::endl;
+        cout << "The upper number of two numbers is " << v1 << endl;
     }
     else
     {
-        std::cout << "The upper number of two numbers is " << v2 << std::endl;
+        cout << "The upper number of two numbers is " << v2 << endl;
     }
     return 0;
 }

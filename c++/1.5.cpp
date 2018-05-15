@@ -1,19 +1,21 @@
 #include <iostream>
+using namespace std;
+
 int main()
 {
-    std::cout << "Enter two numbers:";
-    std::cout << std::endl;
+    cout << "Enter two numbers:";
+    cout << endl;
     int v1;
     int v2;
-    std::cin >> v1;
-    std::cin >> v2;
-    std::cout << "The sum of ";
-    std::cout << v1;
-    std::cout << " and ";
-    std::cout << v2;
-    std::cout << " is ";
-    std::cout << v1 + v2;
-    std::cout << ".";
-    std::cout << std::endl;
+    cin >> v1;
+    cin >> v2;
+    cout << "The sum of ";
+    cout << v1;
+    cout << " and ";
+    cout << v2;
+    cout << " is ";
+    cout << v1 + v2;
+    cout << ".";
+    cout << endl;
     return 0;
 }

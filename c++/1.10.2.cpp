@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
@@ -9,6 +10,6 @@ int main()
         sum += i;
         ++i;
     }
-    std::cout << "Sum of 50 to 100 inclusive is " << sum << "." << std::endl;
+    cout << "Sum of 50 to 100 inclusive is " << sum << "." << endl;
     return 0;
 }
