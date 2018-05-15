@@ -7,6 +7,6 @@ int main()
     {
         sum += i;
     }
-    std::cout << "Sum of 10 to 0 incluvise is " << sum << std::endl;
+    std::cout << "Sum of 10 to 0 inclusive is " << sum << std::endl;
     return 0;    
 }
