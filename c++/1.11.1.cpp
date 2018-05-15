@@ -6,7 +6,7 @@ int main()
     int i = 10;
     while (i > -1)
     {
-        cout << i << "\n";
+        cout << i << " ";
         --i;
     }
     cout << endl;
