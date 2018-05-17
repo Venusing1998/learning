@@ -3,13 +3,15 @@ using namespace std;
 
 int main()
 {
-	int value = 2;
-	int pow = 10;
-	int result = 1;
-	for (int cnt = 0; cnt != pow; ++cnt)
+	int base, exponent, result = 1;
+	cout << "Enter base: " << endl;
+	cin >> base;
+	cout << "Enter exponent: " << endl;
+	cin >> exponent;
+	for (int cnt = 0; cnt != exponent; ++cnt)
 	{
-		result *= value;
+		result *= base;
 	}
-	cout << value << " raised to the pow of " << pow << ":" << result << endl;
+	cout << base << " raised to the power of " << exponent << ": " << result << endl;
 	return 0;
 }
