@@ -3,19 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	s := []int{2, 3, 5, 7, 11, 13}
+	var s []int
 	printSlice(s)
 
-	// Slice the slice to give it zero length.
-	s = s[:0]
+	// append works on nil slices.
+	s = append(s, 0)
 	printSlice(s)
 
-	// Extend its length.
-	s = s[:4]
+	// The slice grows as needed.
+	s = append(s, 1)
 	printSlice(s)
 
-	// Drop its first two values.
-	s = s[2:]
+	// We can add more than one element at a time.
+	s = append(s, 2, 3, 4)
 	printSlice(s)
 }
 
