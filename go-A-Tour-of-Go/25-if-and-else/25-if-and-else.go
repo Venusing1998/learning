@@ -11,7 +11,7 @@ func pow(x, n, lim float64) float64 {
 	} else {
 		fmt.Printf("%g >= %g\n", v, lim)
 	}
-	// 这里开始就不能使用 v 了
+	// can't use v here, though
 	return lim
 }
 
