@@ -1,0 +1,78 @@
+Installing 6 tools at /Users/chriszhu/go/bin
+  go-outline
+  go-symbols
+  guru
+  gorename
+  goreturns
+  golint
+
+Installing github.com/ramya-rao-a/go-outline FAILED
+Installing github.com/acroca/go-symbols FAILED
+Installing golang.org/x/tools/cmd/guru FAILED
+Installing golang.org/x/tools/cmd/gorename FAILED
+Installing github.com/sqs/goreturns FAILED
+Installing github.com/golang/lint/golint FAILED
+
+6 tools failed to install.
+
+go-outline:
+Error: Command failed: /usr/local/bin/go get -u -v github.com/ramya-rao-a/go-outline
+github.com/ramya-rao-a/go-outline (download)
+Fetching https://golang.org/x/tools/go/buildutil?go-get=1
+https fetch failed: Get https://golang.org/x/tools/go/buildutil?go-get=1: dial tcp 216.239.37.1:443: i/o timeout
+package golang.org/x/tools/go/buildutil: unrecognized import path "golang.org/x/tools/go/buildutil" (https fetch: Get https://golang.org/x/tools/go/buildutil?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+github.com/ramya-rao-a/go-outline (download)
+Fetching https://golang.org/x/tools/go/buildutil?go-get=1
+https fetch failed: Get https://golang.org/x/tools/go/buildutil?go-get=1: dial tcp 216.239.37.1:443: i/o timeout
+package golang.org/x/tools/go/buildutil: unrecognized import path "golang.org/x/tools/go/buildutil" (https fetch: Get https://golang.org/x/tools/go/buildutil?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+
+go-symbols:
+Error: Command failed: /usr/local/bin/go get -u -v github.com/acroca/go-symbols
+github.com/acroca/go-symbols (download)
+Fetching https://golang.org/x/tools/go/buildutil?go-get=1
+https fetch failed: Get https://golang.org/x/tools/go/buildutil?go-get=1: dial tcp 216.239.37.1:443: i/o timeout
+package golang.org/x/tools/go/buildutil: unrecognized import path "golang.org/x/tools/go/buildutil" (https fetch: Get https://golang.org/x/tools/go/buildutil?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+github.com/acroca/go-symbols (download)
+Fetching https://golang.org/x/tools/go/buildutil?go-get=1
+https fetch failed: Get https://golang.org/x/tools/go/buildutil?go-get=1: dial tcp 216.239.37.1:443: i/o timeout
+package golang.org/x/tools/go/buildutil: unrecognized import path "golang.org/x/tools/go/buildutil" (https fetch: Get https://golang.org/x/tools/go/buildutil?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+
+guru:
+Error: Command failed: /usr/local/bin/go get -u -v golang.org/x/tools/cmd/guru
+Fetching https://golang.org/x/tools/cmd/guru?go-get=1
+https fetch failed: Get https://golang.org/x/tools/cmd/guru?go-get=1: dial tcp 216.239.37.1:443: i/o timeout
+package golang.org/x/tools/cmd/guru: unrecognized import path "golang.org/x/tools/cmd/guru" (https fetch: Get https://golang.org/x/tools/cmd/guru?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+Fetching https://golang.org/x/tools/cmd/guru?go-get=1
+https fetch failed: Get https://golang.org/x/tools/cmd/guru?go-get=1: dial tcp 216.239.37.1:443: i/o timeout
+package golang.org/x/tools/cmd/guru: unrecognized import path "golang.org/x/tools/cmd/guru" (https fetch: Get https://golang.org/x/tools/cmd/guru?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+
+gorename:
+Error: Command failed: /usr/local/bin/go get -u -v golang.org/x/tools/cmd/gorename
+Fetching https://golang.org/x/tools/cmd/gorename?go-get=1
+https fetch failed: Get https://golang.org/x/tools/cmd/gorename?go-get=1: dial tcp 216.239.37.1:443: i/o timeout
+package golang.org/x/tools/cmd/gorename: unrecognized import path "golang.org/x/tools/cmd/gorename" (https fetch: Get https://golang.org/x/tools/cmd/gorename?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+Fetching https://golang.org/x/tools/cmd/gorename?go-get=1
+https fetch failed: Get https://golang.org/x/tools/cmd/gorename?go-get=1: dial tcp 216.239.37.1:443: i/o timeout
+package golang.org/x/tools/cmd/gorename: unrecognized import path "golang.org/x/tools/cmd/gorename" (https fetch: Get https://golang.org/x/tools/cmd/gorename?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+
+goreturns:
+Error: Command failed: /usr/local/bin/go get -u -v github.com/sqs/goreturns
+github.com/sqs/goreturns (download)
+Fetching https://golang.org/x/tools/imports?go-get=1
+https fetch failed: Get https://golang.org/x/tools/imports?go-get=1: dial tcp 216.239.37.1:443: i/o timeout
+package golang.org/x/tools/imports: unrecognized import path "golang.org/x/tools/imports" (https fetch: Get https://golang.org/x/tools/imports?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+github.com/sqs/goreturns (download)
+Fetching https://golang.org/x/tools/imports?go-get=1
+https fetch failed: Get https://golang.org/x/tools/imports?go-get=1: dial tcp 216.239.37.1:443: i/o timeout
+package golang.org/x/tools/imports: unrecognized import path "golang.org/x/tools/imports" (https fetch: Get https://golang.org/x/tools/imports?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+
+golint:
+Error: Command failed: /usr/local/bin/go get -u -v github.com/golang/lint/golint
+github.com/golang/lint (download)
+Fetching https://golang.org/x/lint?go-get=1
+https fetch failed: Get https://golang.org/x/lint?go-get=1: dial tcp 216.239.37.1:443: i/o timeout
+package golang.org/x/lint: unrecognized import path "golang.org/x/lint" (https fetch: Get https://golang.org/x/lint?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+github.com/golang/lint (download)
+Fetching https://golang.org/x/lint?go-get=1
+https fetch failed: Get https://golang.org/x/lint?go-get=1: dial tcp 216.239.37.1:443: i/o timeout
+package golang.org/x/lint: unrecognized import path "golang.org/x/lint" (https fetch: Get https://golang.org/x/lint?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
