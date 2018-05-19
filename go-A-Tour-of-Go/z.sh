@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for item in {20..40}
+for item in {39..60}
 do
-	rm -rf ${item}
+	touch ${item}-.go
 done
