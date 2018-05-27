@@ -8,7 +8,7 @@ int main()
     cin >> base;
     cout << "Enter exponent: " << endl;
     cin >> exponent;
-    for (int cnt = 0; cnt != exponent; ++cnt)
+    for (int cnt = 0; cnt != exponent; cnt++)
     {
         result *= base;
     }

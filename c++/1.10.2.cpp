@@ -8,7 +8,7 @@ int main()
     while (i < 101)
     {
         sum += i;
-        ++i;
+        i++;
     }
     cout << "Sum of 50 to 100 inclusive is " << sum << "." << endl;
     return 0;
